@@ -1,0 +1,54 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Logs and monitoring state
+logs/
+*.log
+monitor_state.json
+
+# Databricks
+.databricks/
+*.dbc
+
+# Data and generated files
+data/
+datasets/
+checkpoints/
+schemas/
+*.parquet
+*.csv
+*.jsonl
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
